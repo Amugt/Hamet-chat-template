@@ -85,3 +85,25 @@ body {
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
 }
+
+form {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    padding: 2px;
+}
+
+input {
+    flex-grow: 2;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: 1px solid blue;
+    background: blue;
+    color: white;
+}
