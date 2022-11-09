@@ -35,9 +35,8 @@ body {
     display: flex;
     justify-content: center;
     background: whitesmoke;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    height: 40px;
+    height: 50px;
+    z-index: 10;
 }
 
 .name h1 {
@@ -47,8 +46,8 @@ body {
 .messages {
     display: flex;
     flex-direction: column;
-    border-radius: 7px;
-    height: 700px;
+    max-height: max-content;
+    overflow-y: scroll;
 }
 
 .messages p {
@@ -86,11 +85,25 @@ body {
     -o-border-radius: 7px;
 }
 
+.send {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
 form {
     display: flex;
     flex-direction: row;
     border: 1px solid grey;
-    padding: 2px;
+    padding: 2px 2px 2px;
+    margin: 4px 0px 4px;
+    height: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 input {
@@ -103,7 +116,7 @@ input:focus {
 }
 
 button {
-    border: 1px solid blue;
-    background: blue;
+    border: 1px solid rgb(60, 177, 212);
+    background: rgb(60, 177, 212);
     color: white;
 }
