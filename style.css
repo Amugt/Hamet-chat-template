@@ -46,8 +46,7 @@ body {
 .messages {
     display: flex;
     flex-direction: column;
-    max-height: max-content;
-    overflow-y: scroll;
+    height: 700px;
 }
 
 .messages p {
@@ -95,10 +94,10 @@ body {
 form {
     display: flex;
     flex-direction: row;
-    border: 1px solid grey;
+    border: 1px solid rgb(255, 255, 255)252, 252, 252);
     padding: 2px 2px 2px;
     margin: 4px 0px 4px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
