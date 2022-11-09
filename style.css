@@ -1,7 +1,31 @@
+body {
+    display: flex;
+}
+
 .container {
     margin: 15px 15px 15px 15px;
     margin: 15px 15px 15px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: space-between;
+}
+
+.appname {
+    font-size: 90px;
+    font-family:
+}
+
+.start {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: aqua;
+    color: white;
+    font-size: medium;
+    border: 1px solid transparent;
+    width: 120px;
+    height: 50px;
 }
