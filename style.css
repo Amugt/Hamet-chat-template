@@ -14,7 +14,7 @@ body {
 
 .appname {
     font-size: 90px;
-    font-family:
+    font-family:i;
 }
 
 .start {
@@ -94,7 +94,7 @@ body {
 form {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(255, 255, 255)252, 252, 252);
+    border: 1px solid rgb(255, 255, 255);
     padding: 2px 2px 2px;
     margin: 4px 0px 4px;
     height: 35px;
@@ -118,4 +118,11 @@ button {
     border: 1px solid rgb(60, 177, 212);
     background: rgb(60, 177, 212);
     color: white;
+}
+.marketing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2;
 }
